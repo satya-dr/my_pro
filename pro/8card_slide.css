@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.offers {
+    height: 20rem;
+    width: 100%;
+}
+
+.swiper {
+    width: 100%;
+}
+
+.offDesboard {
+    height: 20rem;
+    margin-top: 10px;
+}
+
+.swiper-slide {
+    background-color: green;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .offers {
+        height: 15rem;
+    }
+
+    .offDesboard {
+        height: 15rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .offers {
+        height: 10rem;
+    }
+
+    .offDesboard {
+        height: 10rem;
+    }
+}
